@@ -9,7 +9,11 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
+
       - name: Run MATLAB test
         shell: cmd
-        run: |
-          matlab -batch "run('run_test.m')"
+        run: matlab -batch "run('run_test.m')"
+
+      - name: Export FMU
+        shell: cmd
+        run: matlab -batch "run('export_fmu.m')"
