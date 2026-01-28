@@ -1,0 +1,4 @@
+fmpy
+numpy
+pandas
+matplotlib
