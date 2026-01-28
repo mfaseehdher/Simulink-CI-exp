@@ -5,33 +5,35 @@ on:
   workflow_dispatch:
 
 jobs:
-  run:
+  run-fmu:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install Python packages
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run parameterization (create CSVs)
+      - name: Run FMU parameterization (generate CSVs)
         run: |
-          python parameterization.py
+          python cruise_control_fmu/parameterization.py
 
-      - name: Run plot (create PNG)
+      - name: Generate combined plot (save PNG)
         run: |
-          python plot.py
+          python cruise_control_fmu/plot.py
 
-      - name: Upload results
+      - name: Upload results (CSVs + PNG)
         uses: actions/upload-artifact@v4
         with:
-          name: results
+          name: fmu-results
           path: |
-            *.csv
-            *.png
+            cruise_control_fmu/*.csv
+            cruise_control_fmu/*.png
