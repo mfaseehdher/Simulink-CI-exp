@@ -3,7 +3,7 @@ import pandas as pd
 from fmpy import simulate_fmu
 
 # FMU file
-FMU = "ccmodel.fmu"
+FMU = "cruise_control_fmu/ccmodel.fmu"
 
 # Simulation settings
 STOP = 120.0
