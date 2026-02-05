@@ -35,5 +35,5 @@ jobs:
         with:
           name: fmu-results
           path: |
-            cruise_control_fmu/*.csv
-            cruise_control_fmu/*.png
+          .csv
+          .png
