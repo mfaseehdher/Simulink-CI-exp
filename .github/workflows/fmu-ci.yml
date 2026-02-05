@@ -35,5 +35,5 @@ jobs:
         with:
           name: fmu-results
           path: |
-          *.csv
-          *.png
+            *.csv
+            *.png
