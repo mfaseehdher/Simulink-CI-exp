@@ -1,5 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+print("Plot script running in:", os.getcwd())
+print("Files available here:", os.listdir("."))
 
 files = [
     "result_m1000_b50_u500.csv",
@@ -25,4 +28,5 @@ plt.grid(True)
 plt.legend()
 plt.savefig("combined_parameter_plot.png", dpi=300)
 print("Plot saved as combined_parameter_plot.png")
+
 
