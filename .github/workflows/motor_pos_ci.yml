@@ -1,0 +1,46 @@
+name: Motor Position FMU CI
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  run-motor-pos:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install fmpy numpy pandas matplotlib
+
+      - name: Debug folder contents
+        run: |
+          echo "Root:"
+          dir
+          echo "Motor_pos folder:"
+          dir Motor_pos
+
+      - name: Run FMU (generate CSV)
+        run: |
+          python Motor_pos/Run_motor_pos_fmu.py
+
+      - name: Plot results (generate PNG)
+        run: |
+          python Motor_pos/plot.py
+
+      - name: Upload artifacts (CSV + PNG)
+        uses: actions/upload-artifact@v4
+        with:
+          name: motor-pos-results
+          path: |
+            Motor_pos/*.csv
+            Motor_pos/*.png
