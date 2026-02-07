@@ -1,0 +1,16 @@
+# Motor Position FMU (CI)
+
+This folder runs `Motor_Pos.fmu` using Python (FMPy) in GitHub Actions.
+
+## Outputs
+- `motor_pos_result.csv`
+- `motor_pos_plot.png`
+
+## CI
+Workflow: `.github/workflows/motor_pos_ci.yml`
+
+## Local run
+```bash
+pip install fmpy numpy pandas matplotlib
+python Motor_Pos/run_motor_pos_fmu.py
+python Motor_Pos/plot.py
