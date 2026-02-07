@@ -1,17 +1,19 @@
-name: Motor FMU CI
+name: Motor Speed FMU CI
 
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  run-motor:
+  run-motor-speed:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -20,18 +22,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install fmpy numpy pandas matplotlib
 
-      - name: Run motor simulation (CSV)
+      - name: List files (debug)
         run: |
-          python motor_fmu/run_motor.py
+          echo "Repo root:"
+          dir
+          echo "Motor_Speed folder:"
+          dir Motor_Speed
 
-      - name: Plot motor response (PNG)
+      - name: Run motor simulation (generate CSV)
         run: |
-          python motor_fmu/plot_motor.py
+          python Motor_Speed/Run_motor_speed_fmu.py
+
+      - name: Plot results (generate PNG)
+        run: |
+          python Motor_Speed/plot.py
 
       - name: Upload artifacts (CSV + PNG)
         uses: actions/upload-artifact@v4
         with:
-          name: motor-results
+          name: motor-speed-results
           path: |
-            motor_fmu/*.csv
-            motor_fmu/*.png
+            Motor_Speed/*.csv
+            Motor_Speed/*.png
