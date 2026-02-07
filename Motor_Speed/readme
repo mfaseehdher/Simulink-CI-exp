@@ -1,0 +1,23 @@
+# Motor FMU (CI)
+
+This folder runs the exported **Motor_Model.fmu** using Python (FMPy) in GitHub Actions.
+
+## Contents
+- `Motor_Model.fmu` — FMI 2.0 Co-Simulation FMU exported from Simulink
+- `run_motor.py` — runs the FMU with a step voltage input and saves `motor_result.csv`
+- `plot_motor.py` — reads the CSV and generates `motor_plot.png`
+
+## How it works (CI)
+The GitHub Actions workflow:
+1. installs Python packages (`fmpy`, `numpy`, `pandas`, `matplotlib`)
+2. runs `run_motor.py` to generate `motor_result.csv`
+3. runs `plot_motor.py` to generate `motor_plot.png`
+4. uploads CSV + PNG as artifacts
+
+## Local run
+From the repository root:
+
+```bash
+pip install fmpy numpy pandas matplotlib
+python motor_fmu/run_motor.py
+python motor_fmu/plot_motor.py
