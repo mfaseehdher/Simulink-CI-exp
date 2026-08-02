@@ -29,26 +29,25 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ## Readlist
 
-- [FMI 2.0 standard paper](./fmi2.0.pdf)
-- [Official FMI standard website](https://fmi-standard.org/)
-- [CI/CD systematic review](./cicd.pdf)
-- [Railway FMI/SSP pipeline](./kugu_2024_fmi_ssp_pipeline.pdf)
-- [Co-simulation survey](./gomes_2018_cosimulation_survey.pdf)
-- [PyFMI](./pyfmi.pdf)
-- [CoFMPy](./cofmpy_2025.pdf)
-- [Causal-Block Diagrams](./causal_block_diagrams.pdf)
-- [FMI initialization plugin](./hansen_2021_initialization.pdf)
-- [FMI empirical survey](./schweiger_2018_fmi_survey.pdf)
-- [Continuous simulation credibility](./ahmann_2022_credibility.pdf)
-- [Simulation model exchange in process industry](./maedler_2025_model_exchange.pdf)
-- [Simulink CPS test prioritisation](./arrieta_2026_simulink_testing.pdf)
-- [TwinOps](./twinops_2022.pdf)
-- [SystemC-FMI integration](./systemc_fmi_2025.pdf)
-
+- [Functional Mockup Interface 2.0: The Standard for Tool Independent Exchange of Simulation Models (FMI 2.0 standard paper)](./fmi2.0.pdf)
+- [Official Functional Mock-up Interface website (Official FMI standard website)](https://fmi-standard.org/)
+- [Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices (CI/CD systematic review)](./cicd.pdf)
+- [Pipeline-based Automated Integration and Delivery Testing of Simulation Assets with FMI/SSP in a Railway Digital Twin (Railway FMI/SSP pipeline)](./kugu_2024_fmi_ssp_pipeline.pdf)
+- [Co-simulation: A Survey (Co-simulation survey)](./gomes_2018_cosimulation_survey.pdf)
+- [PyFMI: A Python Package for Simulation of Coupled Dynamic Models with the Functional Mock-up Interface (PyFMI)](./pyfmi.pdf)
+- [CoFMPy: A Python Framework for Rapid Prototyping of FMI-based Digital Twins (CoFMPy)](./cofmpy_2025.pdf)
+- [Causal-Block Diagrams: A Family of Languages for Causal Modelling of Cyber-Physical Systems (Causal-Block Diagrams)](./causal_block_diagrams.pdf)
+- [An FMI-Based Initialization Plugin for INTO-CPS Maestro 2 (FMI initialization plugin)](./hansen_2021_initialization.pdf)
+- [Functional Mock-up Interface: An Empirical Survey Identifies Research Challenges and Current Barriers (FMI empirical survey)](./schweiger_2018_fmi_survey.pdf)
+- [Towards Continuous Simulation Credibility Assessment (Continuous simulation credibility)](./ahmann_2022_credibility.pdf)
+- [Simulation Model Exchange in Process Industry: Requirements, Solutions, and Open Challenges (Simulation model exchange in process industry)](./maedler_2025_model_exchange.pdf)
+- [An Empirical Evaluation of White-box and Black-box Test Case Prioritization Techniques in CPSs Modeled in Simulink (Simulink CPS test prioritisation)](./arrieta_2026_simulink_testing.pdf)
+- [TwinOps: Digital Twins Meets DevOps (TwinOps)](./twinops_2022.pdf)
+- [Automatic Integration of SystemC in the FMI Standard for Software-defined Vehicle Design (SystemC-FMI integration)](./systemc_fmi_2025.pdf)
 
 ## Paper Summaries
 
-### Paper 1 - FMI 2.0 Standard Paper
+### Paper 1 - Functional Mockup Interface 2.0: The Standard for Tool Independent Exchange of Simulation Models
 
 **Reference:** T. Blochwitz, M. Otter, J. Akesson, M. Arnold, C. Clauss, H. Elmqvist, M. Friedrich, A. Junghanns, J. Mauss, D. Neumerkel, H. Olsson, and A. Viel, "Functional Mockup Interface 2.0: The Standard for Tool Independent Exchange of Simulation Models," in *Proceedings of the 9th International Modelica Conference*, 2012, pp. 173-184.
 
@@ -67,7 +66,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 2 - Continuous Integration, Delivery and Deployment Review
+### Paper 2 - Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices
 
 **Reference:** M. Shahin, M. A. Babar, and L. Zhu, "Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices," *IEEE Access*, vol. 5, pp. 3909-3943, 2017, doi: 10.1109/ACCESS.2017.2685629.
 
@@ -86,7 +85,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 3 - Railway FMI/SSP Pipeline
+### Paper 3 - Pipeline-based Automated Integration and Delivery Testing of Simulation Assets with FMI/SSP in a Railway Digital Twin
 
 **Reference:** O. Kugu, S. Zhou, S. H. Reiterer, M. Schwaiger, L. Wurth, and M. Grafinger, "Pipeline-based Automated Integration and Delivery Testing of Simulation Assets with FMI/SSP in a Railway Digital Twin," in *Proceedings of the American Modelica Conference*, 2024, pp. 189-198, doi: 10.3384/ECP207189.
 
@@ -106,7 +105,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 4 - Co-simulation Survey
+### Paper 4 - Co-simulation: A Survey
 
 **Reference:** C. Gomes, C. Thule, D. Broman, P. G. Larsen, and H. Vangheluwe, "Co-simulation: A Survey," *ACM Computing Surveys*, vol. 51, no. 3, 2018, doi: 10.1145/3179993.
 
@@ -125,7 +124,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 5 - PyFMI
+### Paper 5 - PyFMI: A Python Package for Simulation of Coupled Dynamic Models with the Functional Mock-up Interface
 
 **Reference:** C. Andersson, J. Akesson, and C. Fuhrer, "PyFMI: A Python Package for Simulation of Coupled Dynamic Models with the Functional Mock-up Interface," Technical Report in Mathematical Sciences 2016:2, Centre for Mathematical Sciences, Lund University, 2016.
 
@@ -144,7 +143,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 6 - CoFMPy
+### Paper 6 - CoFMPy: A Python Framework for Rapid Prototyping of FMI-based Digital Twins
 
 **Reference:** C. Friedrich, A. Lombana, J. Fasquel, C. Schlick, N. Bennani, and M. Mendil, "CoFMPy: A Python Framework for Rapid Prototyping of FMI-based Digital Twins," in *Proceedings of the 2nd International Conference on Engineering Digital Twins*, 2025.
 
@@ -163,7 +162,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 7 - Causal-Block Diagrams
+### Paper 7 - Causal-Block Diagrams: A Family of Languages for Causal Modelling of Cyber-Physical Systems
 
 **Reference:** C. Gomes, J. Denil, and H. Vangheluwe, "Causal-Block Diagrams: A Family of Languages for Causal Modelling of Cyber-Physical Systems," in *Foundations of Multi-Paradigm Modelling for Cyber-Physical Systems*, Springer, 2020, pp. 97-125, doi: 10.1007/978-3-030-43946-0_4.
 
@@ -182,7 +181,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 8 - FMI Initialization Plugin
+### Paper 8 - An FMI-Based Initialization Plugin for INTO-CPS Maestro 2
 
 **Reference:** S. T. Hansen, C. Thule, and C. Gomes, "An FMI-Based Initialization Plugin for INTO-CPS Maestro 2," in *Software Engineering and Formal Methods. SEFM 2020 Workshops*, LNCS 12524, Springer, 2021, pp. 295-310, doi: 10.1007/978-3-030-67220-1_22.
 
@@ -201,7 +200,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 9 - FMI Empirical Survey
+### Paper 9 - Functional Mock-up Interface: An Empirical Survey Identifies Research Challenges and Current Barriers
 
 **Reference:** G. Schweiger, C. Gomes, G. Engel, I. Hafner, J.-P. Schoeggl, A. Posch, and T. Nouidui, "Functional Mock-up Interface: An Empirical Survey Identifies Research Challenges and Current Barriers," *Simulation Modelling Practice and Theory*, 2018.
 
@@ -220,7 +219,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 10 - Continuous Simulation Credibility
+### Paper 10 - Towards Continuous Simulation Credibility Assessment
 
 **Reference:** M. Ahmann, V. T. Le, F. Eichenseer, F. Steimann, and M. Benedikt, "Towards Continuous Simulation Credibility Assessment," in *Proceedings of the Asian Modelica Conference*, 2022, pp. 171-180, doi: 10.3384/ecp193171.
 
@@ -239,26 +238,26 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 11 - Simulation Model Exchange in Process Industry
+### Paper 11 - Simulation Model Exchange in Process Industry: Requirements, Solutions, and Open Challenges
 
 **Reference:** J. Madler, C. Guadarrama Serrano, I. Viedt, T. Farkas, J. Semrau, W. Otten, S. Kramer, and A. Schuller, "Simulation Model Exchange in Process Industry: Requirements, Solutions, and Open Challenges," *Chemical Engineering & Technology*, vol. 48, no. 3, e202400331, 2025, doi: 10.1002/ceat.202400331.
 
 **Summary:**
-- Research problem: Simulation models are exchanged between organisations, but this raises issues of trust, metadata, intellectual property, and tool compatibility.
-- Methodology: The paper discusses requirements, existing solutions, and open challenges for exchanging simulation models in process industry.
-- Experiments/Validation: It is mainly an analysis of exchange requirements and practices rather than a numerical experiment.
-- Results: It presents model exchange as a real industrial problem, not only a technical file-format problem.
+- Research problem: In modular process industry, important behavioural knowledge can stay with equipment or package-unit manufacturers, while the operator still needs a usable simulation model.
+- Methodology: The paper analyses model-exchange requirements and reviews possible solutions from literature and case studies.
+- Experiments/Validation: It uses case-study examples rather than a numerical benchmark, so the validation is practical and requirement-based.
+- Results: The paper shows that exchange needs metadata, interfaces, IP protection, security, quality assurance, and open standards such as FMI, AAS, and CAPE-OPEN.
 
-**Key Takeaway:** A delivered model needs more than a file; it needs enough information and evidence for another party to use it safely.
+**Key Takeaway:** A delivered simulation model is not useful only because it is portable. It also needs enough metadata, interface information, and quality evidence for another party to trust and run it.
 
-**Relevance to Thesis:** This supports the supplier-customer framing of the thesis. It helps explain why an FMU plus reference traces and validation artefacts is useful for an integrator who may not own the source tool.
+**Relevance to Thesis:** This supports the supplier-customer framing of the thesis. It helps explain why an FMU plus reference traces, validation metrics, plots, and metadata is useful for an integrator who may not own the source tool.
 
 **Notes/Links:**
 - PDF: [`./maedler_2025_model_exchange.pdf`](./maedler_2025_model_exchange.pdf)
 
 ---
 
-### Paper 12 - Simulink CPS Test Prioritisation
+### Paper 12 - An Empirical Evaluation of White-box and Black-box Test Case Prioritization Techniques in CPSs Modeled in Simulink
 
 **Reference:** A. Arrieta, "An Empirical Evaluation of White-box and Black-box Test Case Prioritization Techniques in CPSs Modeled in Simulink," *Empirical Software Engineering*, vol. 31, no. 141, 2026, doi: 10.1007/s10664-026-10875-7.
 
@@ -277,7 +276,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 13 - TwinOps
+### Paper 13 - TwinOps: Digital Twins Meets DevOps
 
 **Reference:** J. Hugues, J. J. Hudak, J. Yankel, and A. Hristozov, "TwinOps: Digital Twins Meets DevOps," Carnegie Mellon University, Software Engineering Institute, Technical Report CMU/SEI-2022-TR-001, 2022, doi: 10.1184/R1/19184915.
 
@@ -296,7 +295,7 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 
 ---
 
-### Paper 14 - Automatic Integration of SystemC in FMI
+### Paper 14 - Automatic Integration of SystemC in the FMI Standard for Software-defined Vehicle Design
 
 **Reference:** G. Pollo, A. M. Albu, A. Burrello, D. Jahier Pagliari, C. Tesconi, L. Panaro, D. Soldi, F. Autieri, and S. Vinco, "Automatic Integration of SystemC in the FMI Standard for Software-defined Vehicle Design," in *Forum on Specification and Design Languages*, 2025.
 
@@ -313,29 +312,8 @@ The aim is to capture what each paper does, why it matters, and how it connects 
 **Notes/Links:**
 - PDF: [`./systemc_fmi_2025.pdf`](./systemc_fmi_2025.pdf)
 
-## Short Grouping for Thesis Use
 
-If space is limited, these papers can be grouped like this in the final literature review:
 
-- FMI foundation: Blochwitz et al.; official FMI standard.
-- Co-simulation and master algorithms: Gomes et al.; PyFMI; CoFMPy; Hansen et al.
-- CI/CD and automated model workflows: Shahin et al.; Kugu et al.; TwinOps.
-- Validation evidence and model exchange: Ahmann et al.; Madler et al.; Schweiger et al.; Arrieta.
-- Future cross-tool direction: SystemC-FMI.
 
-## Papers Most Directly Used in This Thesis
-
-The strongest papers for the final eight-page thesis are:
-
-1. Blochwitz et al. for FMI and FMUs.
-2. Gomes et al. for co-simulation and master algorithms.
-3. Shahin et al. for CI/CD and regression testing.
-4. Kugu et al. for FMI/SSP pipeline-based validation.
-5. PyFMI or CoFMPy for Python-based FMU execution.
-6. Hansen et al. for initialisation of connected FMUs.
-7. Ahmann et al. for credibility, evidence, and stored validation artefacts.
-8. Madler et al. for model exchange and supplier-customer context.
-
-The other papers are still useful, but they should not crowd the final paper unless there is enough space.
 
 
