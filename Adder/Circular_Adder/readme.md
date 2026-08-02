@@ -2,11 +2,11 @@
 
 Student: Muhammad Fasih  
 Topic: Continuous Integration and Continuous Deployment for FMI-based Co-Simulation  
-Purpose: Working notes for thesis writing, supervisor updates, and final reference checking.
+Purpose: Working notes for thesis writing, and final reference checking.
 
 ## Writing Note
 
-These notes are written in simple academic language. The aim is not to copy the papers. The aim is to capture what each paper does, why it matters, and how it connects to this thesis. Some papers are core references in the final thesis. Others are background papers that helped shape the work but may not need to be cited in the final eight-page version.
+The aim is to capture what each paper does, why it matters, and how it connects to this thesis. Some papers are core references in the final thesis
 
 ## Literature Matrix
 
@@ -45,7 +45,6 @@ These notes are written in simple academic language. The aim is not to copy the 
 - [TwinOps](./twinops_2022.pdf)
 - [SystemC-FMI integration](./systemc_fmi_2025.pdf)
 
-Note: Rename the PDFs in `04_literature/` to match these names if you want all links to work directly.
 
 ## Paper Summaries
 
@@ -65,7 +64,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./fmi2.0.pdf`](./fmi2.0.pdf)
-- Notes: `MD files/pdf_output/fmi2.0/fmi2.0.md`
 
 ---
 
@@ -85,7 +83,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./cicd.pdf`](./cicd.pdf)
-- Notes: `MD files/pdf_output/shahin_2017_cicd_systematic_review/shahin_2017_cicd_systematic_review.md`
 
 ---
 
@@ -105,7 +102,7 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./kugu_2024_fmi_ssp_pipeline.pdf`](./kugu_2024_fmi_ssp_pipeline.pdf)
-- Notes: `MD files/pdf_output/Pipeline-based Automated Integration and Delivery Testing ofSimulation Assets with FMISSP in a Railway Digital Twin/...md`
+
 
 ---
 
@@ -125,7 +122,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./gomes_2018_cosimulation_survey.pdf`](./gomes_2018_cosimulation_survey.pdf)
-- Notes: `MD files/pdf_output/gomes_2018_cosimulation_survey/gomes_2018_cosimulation_survey.md`
 
 ---
 
@@ -145,7 +141,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./pyfmi.pdf`](./pyfmi.pdf)
-- Notes: `MD files/pdf_output/PyFMI-A_Python_Package_for_Simulation_of_Coupled/...md`
 
 ---
 
@@ -165,7 +160,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./cofmpy_2025.pdf`](./cofmpy_2025.pdf)
-- Notes: `MD files/pdf_output/CoFMPy_A Python Framework for Rapid Prototyping of/...md`
 
 ---
 
@@ -185,7 +179,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./causal_block_diagrams.pdf`](./causal_block_diagrams.pdf)
-- Notes: `MD files/pdf_output/Causal-Block Diagrams/Causal-Block Diagrams.md`
 
 ---
 
@@ -205,7 +198,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./hansen_2021_initialization.pdf`](./hansen_2021_initialization.pdf)
-- Notes: `MD files/pdf_output/hansen_2021_fmi_initialization_plugin/hansen_2021_fmi_initialization_plugin.md`
 
 ---
 
@@ -225,7 +217,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./schweiger_2018_fmi_survey.pdf`](./schweiger_2018_fmi_survey.pdf)
-- Notes: `MD files/pdf_output/schweiger_2018_fmi_empirical_survey_barriers/schweiger_2018_fmi_empirical_survey_barriers.md`
 
 ---
 
@@ -245,7 +236,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./ahmann_2022_credibility.pdf`](./ahmann_2022_credibility.pdf)
-- Notes: `MD files/pdf_output/Toward_Continuous_simulation_credibility_assesment/Toward_Continuous_simulation_credibility_assesment.md`
 
 ---
 
@@ -265,7 +255,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./maedler_2025_model_exchange.pdf`](./maedler_2025_model_exchange.pdf)
-- Notes: PDF/notes still need to be added locally if required.
 
 ---
 
@@ -285,7 +274,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./arrieta_2026_simulink_testing.pdf`](./arrieta_2026_simulink_testing.pdf)
-- Notes: `MD files/pdf_output/new_after_2020/Black_Box_Test_Prioritization_CPS_Simulink_2026/...md`
 
 ---
 
@@ -305,7 +293,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./twinops_2022.pdf`](./twinops_2022.pdf)
-- Notes: `MD files/pdf_output/new_after_2020/TwinOps_Digital_Twins_Meets_DevOps_2022/...md`
 
 ---
 
@@ -325,7 +312,6 @@ Note: Rename the PDFs in `04_literature/` to match these names if you want all l
 
 **Notes/Links:**
 - PDF: [`./systemc_fmi_2025.pdf`](./systemc_fmi_2025.pdf)
-- Notes: `MD files/pdf_output/Automatic integration of SystemC in the FMI/...md`
 
 ## Short Grouping for Thesis Use
 
